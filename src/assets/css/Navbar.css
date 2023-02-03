@@ -1,0 +1,111 @@
+:root{
+    --navbackcolor:rgba(255, 255, 255, 0.014);
+}
+.navbar{
+    background-color: var(--navbackcolor);
+}
+
+.aibars-icon{
+    color: #fff;
+    font-size: 35px;
+}
+.nav-item{
+
+    margin-right: 20px;
+}
+ /* altan xette animasya vermek  start*/
+.nav-link{
+    
+    text-align: center;
+    position: relative;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 1.2s ;
+    transform-origin: center;
+}
+.nav-link:hover::before{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+ /* altan xette animasya vermek  end */
+
+/* overlay menyu start */
+.overlay{
+    position: fixed;
+    background-color:rgba(1, 7, 17, 0.9);
+    width: 0;
+    height: 100vh;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: width 1s liner;
+}
+.overlay-nav{
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+.overlay-nav a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #aaa;
+    letter-spacing: 2px;
+    transition:transform 500ms linear;
+}
+.overlay-nav a:hover{
+    transform: translateX(20px);
+    color: #fff;
+   
+}
+.gicross-icon{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* overlay menyu end*/
+
+
+
+                                           /* mediaquery  */
+ @media (min-width:1347px){
+    .navpadding{
+        padding: 30px 200px;
+        
+    }
+ }                                          
+ @media (max-width:1346px){
+    .navpadding{
+        padding: 30px 150px;
+        
+    }
+ }                                          
+ @media (max-width:1180px){
+    .navpadding{
+        padding: 30px 50px;
+        
+    }
+ }                                          
+
+@media (max-width:576px){
+     .navpadding{
+         padding: 30px 10px;
+         
+     }
+} 
+
+
