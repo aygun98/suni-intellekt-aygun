@@ -45,7 +45,10 @@
     height: 100vh;
     z-index: 3;
     overflow-x: hidden;
-    transition: width 1s liner;
+    transition: width 1s ;
+}
+.aktiv{
+    width: 50%;
 }
 .overlay-nav{
     display: flex;
@@ -75,9 +78,11 @@
     color: #fff;
     font-size: 22px;
     cursor: pointer;
+    /* z-index: 3; */
 }
 
 /* overlay menyu end*/
+
 
 
 
