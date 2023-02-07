@@ -10,6 +10,7 @@ import Button from './Button'
 
 
 
+
 function Navbar() {
  const overLayUnvan = useRef()
     const operOverLayMenu = (e) => {
@@ -62,7 +63,7 @@ const closeOverLayMenu = (e) => {
                         </ul>
 
 
-                        <Button />
+                        <Button icindekiYazi='Sign In' klassAdi='my-custom-btn'/>
                     </div>
                 </div>
             </nav>
