@@ -6,4 +6,5 @@
 }
 body{
   background:var(--deskcolor);
+  overflow-x: hidden !important;
 }

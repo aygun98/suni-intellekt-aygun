@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/css/Button.css';
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <button className="my-custom-btn">Sign In</button>
+    <button className={props.klassAdi}>{props.icindekiYazi}</button>
   )
 }
 

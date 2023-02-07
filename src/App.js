@@ -3,13 +3,14 @@ import './App.css';
 
 //components
 import Navbar from './components/Navbar';
+import Introduction from './components/Introduction';
 
 function App() {
   return (
     <>
     
     <Navbar/>
-    
+    <Introduction/>
     </>
   );
 }

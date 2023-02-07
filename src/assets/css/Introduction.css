@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+.introduction {
+    color: white;
+    
+}
+.introduction_left_side{
+    padding-top: 160px;
+}
+.introduction_right_side{
+   padding-top: 64px;
+}
+.introduction_right_side img{
+  
+    height: 100%;
+}
+.introduction h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #3A68B8;
+    
+}
+
+.introduction h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 130%;
+   
+}
+
+.introduction .small {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.7;
+    padding: 40px 0;
+    
+}
+
+@media (min-width:1347px) {
+    .introduction {
+        padding: 30px 200px;
+
+    }
+
+}
+
+@media (max-width:1346px) {
+    .introduction {
+        padding: 30px 150px;
+
+    }
+}
+
+@media (max-width:1180px) {
+    .introduction {
+        padding: 30px 50px;
+
+    }
+}
+
+@media (max-width:576px) {
+    .introduction {
+        padding: 30px 10px;
+
+    }
+}
