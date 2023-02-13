@@ -1,5 +1,5 @@
 :root{
-    --navbackcolor:rgba(255, 255, 255, 0.014);
+    --navbackcolor:#0A121F;
 }
 .navbar{
     background-color: var(--navbackcolor);
