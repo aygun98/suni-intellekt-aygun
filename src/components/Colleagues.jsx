@@ -30,15 +30,15 @@ const Colleagues = () => {
           },
           590: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 50,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
+            slidesPerView: 3,
+            spaceBetween: 60,
           },
          
         }}
