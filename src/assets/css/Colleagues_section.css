@@ -3,7 +3,13 @@
   
 }
 
-
+.collegaqutusu{
+   max-width: 200px;
+}
+.collegaqutusu img{
+   width:100%;
+   
+}
  @media(max-width:590px){
   
    .colleagues_section{

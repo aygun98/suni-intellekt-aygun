@@ -4,11 +4,11 @@
 }
 .learn-left-side{
     max-width: 600px;
-    /* padding-right:10px; */
+    /* margin-right:10px; */
 }
 .learn-rigth-side{
     padding: 178px 0;
-    padding-left: 10px;
+    padding-left: 70px;
 }
 .learn-rigth-side h1{
     font-family: 'Open Sans';
@@ -33,7 +33,7 @@
 
 @media (min-width:1347px) {
     .learnSection {
-        padding: 100px 180px;
+        padding: 70px 180px;
   
     }
   
@@ -41,22 +41,28 @@
   
   @media (max-width:1346px) {
     .learnSection {
-        padding: 100px 130px;
+        padding: 70px 110px;
   
     }
   }
   
   @media (max-width:1180px) {
     .learnSection {
-        padding: 100px 20px;
+        padding: 70px 20px;
   
     }
   }
   
   @media (max-width:576px) {
     .learnSection {
-        padding: 100px 10px;
+        padding: 70px 10px;
   
+    }
+    
+  }
+  @media (max-width:948px) and (min-width:768px) {
+    .learn-rigth-side .learnType{
+        height: 100px;
     }
     
   }
