@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Introduction from './components/Introduction';
 import Colleagues from './components/Colleagues';
 import LearnSection from './components/LearnSection';
+import AwardsContainer from './components/AwardsContainer';
 //aos
 import AOS from 'aos';
 
@@ -24,6 +25,7 @@ function App() {
     <Colleagues/>
     </div>
     <LearnSection/>
+    <AwardsContainer/>
     </>
   );
 }

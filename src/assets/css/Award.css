@@ -1,0 +1,40 @@
+.awards-continer {
+    margin: 0 !important;
+    
+    /* padding-top: 130px; */
+}
+
+.card-img-top {
+    width: 60px;
+    height: 63px;
+    display: block;
+    margin:  10px auto 0;
+}
+.card{
+    color: white;
+    background-color: #101725;
+    margin: 20px 0;
+}
+.card-body{
+    padding: 0px;
+}
+.card h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 160%;
+    text-align: center;
+    /* padding: 10px; */
+}
+
