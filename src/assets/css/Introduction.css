@@ -7,10 +7,11 @@
 }
 .introduction_left_side{
     padding-top: 160px;
+    /* padding: 0 64px; */
     
 }
 .introduction_right_side{
-   padding: 64px ;
+   /* padding: 0px ; */
    margin: 0 !important;
    
    
@@ -33,17 +34,17 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 3.4rem;
+    font-size: 3.1rem;
     line-height: 130%;
    
 }
 
-.introduction .small {
+.introduction .small-Type {
     display: inline-block;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 160%;
     opacity: 0.7;
     padding: 40px 0;

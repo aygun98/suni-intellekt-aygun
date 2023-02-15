@@ -16,7 +16,7 @@ const LearnSection = () => {
                     typeSpeed={40}
                 />
                 
-                <Button  icindekiYazi="Learn More" klassAdi='my-custom-btn'/>
+                <Button  icindekiYazi="Learn More" klassAdi='learn-btn my-custom-btn'/>
                 
             </div>
         </div>

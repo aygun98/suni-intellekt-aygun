@@ -16,13 +16,15 @@
     margin: 20px 0;
     cursor: pointer;
     transition:transform 1s ;
+    height: 297px;
 }
 .card:hover{
     box-shadow: 0 0 8px gray;
     transform:translateY(-10px);
 }
 .card-body{
-    padding: 0px;
+    padding: 0 7px;
+
 }
 .card h5 {
     font-family: 'Open Sans';
@@ -44,3 +46,8 @@
     /* padding: 10px; */
 }
 
+@media(max-width:767px){
+    .card-continer{
+        max-width: 76%;
+    }
+}
