@@ -1,0 +1,18 @@
+.form-contain{
+ max-width: 600px;
+ max-height: 300px;
+  margin: 0 auto;
+  background-color:rgb(72, 83, 238);
+  /* width: 100%; */
+  font-size: 20px;
+  padding: 10px;
+  border-radius:10px ;
+}
+
+.form-control{
+    resize: none;
+}
+.form-wrap{
+    width: 100%;
+    height: 100%;
+}

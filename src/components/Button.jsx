@@ -5,7 +5,7 @@ const Button = (props) => {
   
   
   return (
-    <button className={props.klassAdi}>{props.icindekiYazi}</button>
+    <button type={props.tipi} className={props.klassAdi}>{props.icindekiYazi}</button>
   )
 }
 {/* <img className='playicon' src={props.icindekiIcon} alt="icon" /> */}

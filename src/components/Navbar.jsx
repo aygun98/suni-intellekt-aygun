@@ -7,6 +7,8 @@ import logoShekil from '../assets/images/logo.svg'
 import { GiCrossedBones } from 'react-icons/gi'
 import { AiOutlineBars } from 'react-icons/ai'
 import Button from './Button'
+// router marsut sistemi linki
+import { Link } from 'react-router-dom'
 
 
 
@@ -29,11 +31,11 @@ const closeOverLayMenu = (e) => {
             <div className="overlay" ref={overLayUnvan}>
                 <GiCrossedBones className='gicross-icon' onClick={closeOverLayMenu} />
                 <div className='overlay-nav'>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
+                    <Link to="/">Home</Link>
+                    <Link to="haqqimizda">About</Link>
+                    <Link to="xidmetler">Services</Link>
+                    <Link to="bloq">Blog</Link>
+                    <Link to="elaqe">Contact</Link>
                 </div>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary navpadding">
@@ -46,19 +48,19 @@ const closeOverLayMenu = (e) => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link text-white " aria-current="page" href="#">Home</a>
+                                <Link className="nav-link text-white " aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">About</a>
+                                <Link className="nav-link text-white" to="haqqimizda">About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Services</a>
+                                <Link className="nav-link text-white" to="xidmetler">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Blog</a>
+                                <Link className="nav-link text-white" to="bloq">Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Contact</a>
+                                <Link className="nav-link text-white" to="elaqe">Contact</Link>
                             </li>
                         </ul>
 
