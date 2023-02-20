@@ -1,12 +1,12 @@
 import React from 'react';
 import '../assets/css/Button.css';
 
-const Button = (props) => {
+const Button = ({tipi, klassAdi, icindekiYazi,icindekiIcon}) => {
   
   
   return (
-    <button type={props.tipi} className={props.klassAdi}>{props.icindekiYazi}</button>
+    <button type={tipi} className={klassAdi}>{icindekiIcon &&  <img src={icindekiIcon} alt="icon" />}{icindekiYazi}</button>
   )
 }
-{/* <img className='playicon' src={props.icindekiIcon} alt="icon" /> */}
+
 export default Button
