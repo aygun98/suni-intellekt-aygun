@@ -83,6 +83,26 @@
 
 /* overlay menyu end*/
 
+/* drop */
+.nav-item{
+    position: relative;
+  
+
+}
+.dropmenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    
+}
+.nav-item:hover .dropmenu{
+    display: block;
+    
+}
+.dropmenu a{
+    display: block;
+}
+
 
 
 
